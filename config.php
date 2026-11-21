@@ -2,13 +2,8 @@
 // Dados de acesso ao banco de dados.
 $host = 'localhost';
 $database = 'voltauto';
-<<<<<<< HEAD
-$user = 'daemon';
-$password = 'kesya';
-=======
 $user = 'root';
 $password = '';
->>>>>>> beb99800dacdaea59fc4c9fb2c58b513e19e0a9c
 
 try {
     $pdo = new PDO(
